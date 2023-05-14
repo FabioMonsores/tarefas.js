@@ -1,5 +1,5 @@
 function calculoIMC(peso, altura) {
-  let imc = peso / (altura * altura);
+  let imc = peso / Math.pow(altura, 2);
 
   if (imc < 18.5) {
     return `Seu IMC está ${imc.toFixed(1)}, você está abaixo do peso.`;

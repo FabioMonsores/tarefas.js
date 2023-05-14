@@ -1,5 +1,5 @@
 function cubo(num) {
-  return num * num * num;
+  return Math.pow(num, 3);
 }
 
 console.log(cubo(10));
